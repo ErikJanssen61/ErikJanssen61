@@ -1,5 +1,6 @@
+package nextGenPackage;
 /*
- 06-02
+ *06-02
  */
 
 import java.util.Scanner;
@@ -17,5 +18,7 @@ class VersatileSnitSoft {
       System.out.print("We will bill $");
       System.out.print(amount);
       System.out.println(" to your credit card.");
+      
+      myScanner.close();
    }
 }

@@ -1,3 +1,4 @@
+package nextGenPackage;
 /*
  08-01
  */
@@ -19,6 +20,7 @@ class LowerToUpper {
 		System.out.println();
 		System.out.println(bigLetter);
 		
+		mijnScanner.close();
 
 	}
 }

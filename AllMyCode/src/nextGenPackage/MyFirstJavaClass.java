@@ -1,3 +1,4 @@
+package nextGenPackage;
 public class MyFirstJavaClass {
 
   /**

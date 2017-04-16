@@ -1,3 +1,4 @@
+package nextGenPackage;
 import java.util.Scanner;
 
 /*
@@ -8,7 +9,9 @@ class EchoLine1 {
 	
 	public static void main(String args[]) {
 		
-		int s = 33;
+		/*
+		 * int s = 33;
+		 */
 		Scanner mijnScanner = new Scanner(System.in);
 		System.out.println("First type a line");
 		System.out.println(mijnScanner.nextLine());
@@ -19,6 +22,6 @@ class EchoLine1 {
 		System.out.println("Not sure what happens now");
 		System.out.println(mijnScanner.next());
 		
-		
+		mijnScanner.close();
 	}
 }

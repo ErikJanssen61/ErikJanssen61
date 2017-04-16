@@ -1,3 +1,4 @@
+package nextGenPackage;
 /*
  * A program to list the good things in life
  * Author: Barry Burd, BeginProg3@allmycode.com

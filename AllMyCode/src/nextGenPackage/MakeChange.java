@@ -1,3 +1,4 @@
+package nextGenPackage;
 /*
  * 07-03
 */
@@ -35,5 +36,7 @@ class MakeChange {
       System.out.println(dimes + " dimes");
       System.out.println(nickels + " nickels");
       System.out.println(cents + " cents");
+      
+      myScanner.close();
    }
 }
