@@ -17,5 +17,6 @@ class CelsiusToFahrenheit {
 
     System.out.print("Room temperature? ");
     System.out.println(fahrenheit == 69.8);
+    myScanner.close();
   }
 }
